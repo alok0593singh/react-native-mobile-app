@@ -33,7 +33,7 @@ spec:
           description: Unique name of the component
           ui:field: EntityNamePicker
         rn_package_name:
-          title: reactnative Package Name
+          title: ReactNative Package Name
           type: string
           description: Name for the Reactnative package. eg (io.backstage.blah)
         description:
