@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: statusneo-springboot-template
+  name: statusneo-react-template
   title: Golden Path - RN Mobile APP
   description: Create a simple Mobile app using Reactnative, #Maven, Springboot and GitHub Actions
   tags:
