@@ -6,7 +6,7 @@ metadata:
   description: Create a simple Mobile app using Reactnative, #Maven, Springboot and GitHub Actions
   tags:
     # - github-actions
-    - React Native
+    - reactnative
     - recommended
   links:
     - title: Backstage
@@ -17,11 +17,11 @@ metadata:
       icon: github
 
 spec:
-  owner: AlokSingh999@gmail.com
+  owner: aloksingh999@gmail.com
   type: service
 
   parameters:
-    - title: ReactNative App
+    - title: reactnative App
       required:
         - component_id
         - owner
@@ -33,7 +33,7 @@ spec:
           description: Unique name of the component
           ui:field: EntityNamePicker
         rn_package_name:
-          title: ReactNative Package Name
+          title: reactnative Package Name
           type: string
           description: Name for the Reactnative package. eg (io.backstage.blah)
         description:
@@ -65,7 +65,7 @@ spec:
             # - JFrog
             # - AWS ECR
             # - Google Container Registry
-            - Azure Container Registry
+            - AzureContainerRegistry
         imageName:
           title: Docker Image Name
           type: string
