@@ -123,7 +123,7 @@ spec:
         repoUrl: ${{ parameters.repoUrl }}
         repoVisibility: public
         gitCommitMessage: "Scaffolder Magic"
-        gitAuthorName: "NishkarshRaj"
+        gitAuthorName: "AlokSingh"
         gitAuthorEmail: "aloksingh999@gmail.com"
         # token: ${{ secrets.USER_OAUTH_TOKEN }}
 
