@@ -1,1 +1,1 @@
-TBD for Backstage Showcase
+This is react native mobile aplication repo.
