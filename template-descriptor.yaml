@@ -25,14 +25,14 @@ spec:
       required:
         - component_id
         - owner
-        - ReactNative_package_name
+        - React Native_package_name
       properties:
         component_id:
           title: Name
           type: string
           description: Unique name of the component
           ui:field: EntityNamePicker
-        rn_package_name:
+        React Native_package_name:
           title: ReactNative Package Name
           type: string
           description: Name for the Reactnative package. eg (io.backstage.blah)
