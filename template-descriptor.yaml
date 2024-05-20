@@ -49,31 +49,31 @@ spec:
             allowedKinds:
               - Group
 
-    - title: Docker Image
-      required:
-        - containerRegistry
-        - imageName
-        - imageProject
-      properties:
-        containerRegistry:
-          title: Name
-          type: string
-          description: Unique name of the component
-          enum:
-            - DockerHub
-            # - ghcr.io
-            # - JFrog
-            # - AWS ECR
-            # - Google Container Registry
-            - AzureContainerRegistry
-        imageName:
-          title: Docker Image Name
-          type: string
-          description: Name your Docker image - must be in lowercase
-        imageProject:
-          title: Docker Project
-          type: string
-          description: Project for collection of images - must be in lowercase
+    # - title: Docker Image
+    #   required:
+    #     - containerRegistry
+    #     - imageName
+    #     - imageProject
+    #   properties:
+    #     containerRegistry:
+    #       title: Name
+    #       type: string
+    #       description: Unique name of the component
+    #       enum:
+    #         - DockerHub
+    #         # - ghcr.io
+    #         # - JFrog
+    #         # - AWS ECR
+    #         # - Google Container Registry
+    #         - AzureContainerRegistry
+    #     imageName:
+    #       title: Docker Image Name
+    #       type: string
+    #       description: Name your Docker image - must be in lowercase
+    #     imageProject:
+    #       title: Docker Project
+    #       type: string
+    #       description: Project for collection of images - must be in lowercase
 
     - title: Let's create your Repository
       required:
